@@ -418,20 +418,20 @@ xsi:noNamespaceSchemaLocation="https://community.rti.com/schema/current/rti_dds_
     <!-- types -->
     <types>
         <struct name="DroneType" extensibility="extensible">
-            <member name="running_time" type="long"/>
-            <member name="drone_pitch" type="long"/>
-            <member name="drone_yaw" type="long"/>
-            <member name="drone_roll" type="long"/>
-            <member name="drone_lon" type="long"/>
-            <member name="drone_lat" type="long"/>
-            <member name="drone_alt" type="long"/>
-            <member name="GPS_signal_strength" type="long"/>
-            <member name="drone_speed" type="long"/>
-            <member name="drone_status" type="char"/>
-            <member name="flight_distance" type="long"/>
-            <member name="battery_voltage" type="long"/>
-            <member name="battery_level" type="long"/>
-            <member name="battery_current" type="long"/>
+            <member name="running_time" type="float"/>
+            <member name="drone_pitch" type="float"/>
+            <member name="drone_yaw" type="float"/>
+            <member name="drone_roll" type="float"/>
+            <member name="drone_lon" type="float"/>
+            <member name="drone_lat" type="float"/>
+            <member name="drone_alt" type="float"/>
+            <member name="GPS_signal_strength" type="float"/>
+            <member name="drone_speed" type="float"/>
+            <member name="drone_status" type="string" stringMaxLength="128" key="true"/>
+            <member name="flight_distance" type="float"/>
+            <member name="battery_voltage" type="float"/>
+            <member name="battery_level" type="float"/>
+            <member name="battery_current" type="float"/>
         </struct>
     </types>
 
