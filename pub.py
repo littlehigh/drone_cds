@@ -74,5 +74,5 @@ with rti.open_connector(
         output.instance.set_number("battery_current", battery_current)
 
         output.write()
-        sleep(1)
+        sleep(3)
         output.wait() # Wait for all subscriptions to receive the data before exiting
