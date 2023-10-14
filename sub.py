@@ -60,4 +60,4 @@ with rti.open_connector(
                   "battery_current: " + repr(battery_current))
 
         print("================== Next Round ======================")
-        time.sleep(0.5)
+        time.sleep(3)
