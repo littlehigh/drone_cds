@@ -17,6 +17,5 @@ Use RTI DDS_Cloud Discovery Service to get Drone Information in Python
 3. 在我的電腦執行程式`sub.py`
 4. 藉由RTI Lanucher 6.1.1 監視到程式是成功的
 RTI Lanucher 6.1.1 監視畫面:
-https://github.com/littlehigh/drone_cds/blob/main/CDS_Success_RTI%20Launcher.JPG
 
 
