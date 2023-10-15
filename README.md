@@ -26,8 +26,8 @@ python sub.py
 4. 藉由RTI Lanucher 6.1.1 監視到程式是成功的
 
 RTI Lanucher 6.1.1 監視畫面:
-![image](https://github.com/littlehigh/drone_cds/blob/main/CDS_Success_RTI%20Launcher.JPG)
+![image](https://github.com/littlehigh/drone_cds/blob/main/images/CDS_Success_RTI%20Launcher.JPG)
 
 VS Code Terminal畫面:
-![image](https://github.com/littlehigh/drone_cds/blob/main/CDS_Success_VS%20code.JPG)
+![image](https://github.com/littlehigh/drone_cds/blob/main/images/CDS_Success_VS%20code.JPG)
 
