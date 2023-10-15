@@ -11,10 +11,18 @@ Use RTI DDS_Cloud Discovery Service to get Drone Information in Python
 
 ## 執行步驟:
 1. 先在虛擬機(VMware)的終端機執行無人機模擬器
-`cd PX4-Autopilot`
-`make px4_sitl jmavsim`
-2. 在虛擬機(VMware)執行程式`pub.py` >>> 藉由pub.py 讓它write 無人機相關資訊到Topic: Drone中
-3. 在我的電腦執行程式`sub.py`
+```
+cd PX4-Autopilot
+make px4_sitl jmavsim
+```
+2. 在虛擬機(VMware)'s VScode 中的Termianl執行程式`pub.py` >>> 藉由pub.py 讓它write 無人機相關資訊到Topic: Drone中
+```
+python pub.py
+```
+3. 在我的電腦's VScode 中的Termianl執行程式`sub.py` >>> 藉由sub.py 讓它read Topic: Drone中無人機相關資訊
+```
+python sub.py
+```
 4. 藉由RTI Lanucher 6.1.1 監視到程式是成功的
 
 RTI Lanucher 6.1.1 監視畫面:
