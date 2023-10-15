@@ -16,4 +16,7 @@ Use RTI DDS_Cloud Discovery Service to get Drone Information in Python
 2. 在虛擬機(VMware)執行程式`pub.py` >>> 藉由pub.py 讓它write 無人機相關資訊到Topic: Drone中
 3. 在我的電腦執行程式`sub.py`
 4. 藉由RTI Lanucher 6.1.1 監視到程式是成功的
+RTI Lanucher 6.1.1 監視畫面:
+https://github.com/littlehigh/drone_cds/blob/main/CDS_Success_RTI%20Launcher.JPG
+
 
