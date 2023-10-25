@@ -1,6 +1,7 @@
 # drone_cds
 > Use RTI DDS_Cloud Discovery Service to get Drone Information in Python
-> ** Can't use python connector, need to re-test this code **
+> Can't use python connector, need to re-test this code
+
 ## 環境:
 我的電腦:
 > 作業系統: Window 10
